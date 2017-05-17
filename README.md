@@ -37,7 +37,7 @@ pyaudio (playing sounds from audiolazy
 
 ### -----------=--=-=-=-========= Interior Structure =========-=-=-=--=-----------
 
-Data is fed from the text files through WDataPull.py using numpy and some reorganization methods. Unusable data is cut out.
+Data is fed from the text files through WDataPull.py using numpy and some reorganization methods. Unusable data is cut out. WDataPull.py is imported into MainProject.ipynb, which acts as a controller for the lower level functions.
 
 Once this data is formatted correctly, it is fed into Sonification.py. Sonification takes advantage of three primary functions to turn the data into sound:
 
